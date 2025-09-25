@@ -5,7 +5,7 @@ import HeroSub from '@/components/shared/HeroSub';
 
 export const metadata: Metadata = {
     title: "Our Team | Curzon London",
-    description: "Meet the experienced team behind Curzon London's property management success. Developers, estate agents, and property experts.",
+    description: "Meet the experienced team behind Curzon London&apos;s property management success. Developers, estate agents, and property experts.",
 };
 
 export default function Team() {
@@ -70,7 +70,7 @@ export default function Team() {
     {
       icon: "ph:map-pin-fill", 
       title: "Central London Specialists",
-      description: "Deep local knowledge of Central London's property market, regulations, and opportunities."
+      description: "Deep local knowledge of Central London&apos;s property market, regulations, and opportunities."
     },
     {
       icon: "ph:clock-fill",
@@ -160,7 +160,7 @@ export default function Team() {
               Why Our Team Delivers Results
             </h2>
             <p className="text-lg text-dark/50 dark:text-white/50 max-w-3xl mx-auto">
-              Our team's unique combination of skills and experience ensures your property receives expert attention at every level.
+              Our team&apos;s unique combination of skills and experience ensures your property receives expert attention at every level.
             </p>
           </div>
 

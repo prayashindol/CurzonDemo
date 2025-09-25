@@ -1,5 +1,4 @@
 import { Icon } from '@iconify/react'
-import Image from 'next/image'
 import { Metadata } from "next";
 import HeroSub from '@/components/shared/HeroSub';
 
