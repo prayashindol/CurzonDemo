@@ -20,14 +20,14 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html lang='en' suppressHydrationWarning className='dark'>
       <body className={`${font.className} bg-white dark:bg-black antialiased`}>
         <NextTopLoader color="#07be8a" />
         <SessionProviderComp>
           <ThemeProvider
             attribute='class'
             enableSystem={true}
-            defaultTheme='light'>
+            defaultTheme='dark'>
             <Header />
             {children}
             <Footer />
