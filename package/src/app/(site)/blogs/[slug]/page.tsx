@@ -3,7 +3,8 @@ import markdownToHtml from "@/components/utils/markdownToHtml";
 import { format } from "date-fns";
 import Image from "next/image";
 import Link from "next/link";
-import { Icon } from '@iconify/react'
+import { Icon } from '@iconify/react';
+import { Blog } from "@/types/blog";
 
 type Props = {
     params: { slug: string };
@@ -74,9 +75,9 @@ export default async function Post({ params }: any) {
         "date",
         "tag",
         "detail",
-    ]);
+    ]) as Blog;
 
-    const content = await markdownToHtml(post.content || "");
+    const content = await markdownToHtml(typeof post.content === 'string' ? post.content : "");
 
     return (
         <>
@@ -103,7 +104,7 @@ export default async function Post({ params }: any) {
                         <div className="flex items-center justify-between gap-6 mt-12">
                             <div className="flex items-center gap-4">
                                 <Image
-                                    src={post.authorImage}
+                                    src={post.authorImage || "/images/blog/default-author.jpg"}
                                     alt="image"
                                     className="bg-no-repeat bg-contain inline-block rounded-full !w-12 !h-12"
                                     width={48}
@@ -137,7 +138,7 @@ export default async function Post({ params }: any) {
                     </div>
                     <div className="z-20 mt-12 overflow-hidden rounded">
                         <Image
-                            src={post.coverImage}
+                            src={post.coverImage || "/images/blog/default-cover.jpg"}
                             alt="image"
                             width={1170}
                             height={766}
