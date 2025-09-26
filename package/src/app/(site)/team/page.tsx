@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import HeroSub from '@/components/shared/HeroSub';
 
 export const metadata: Metadata = {
-    title: "Our Team | Curzon London",
-    description: "Meet the experienced team behind Curzon London&apos;s property management success. Developers, estate agents, and property experts.",
+    title: "Our Team | Curzon",
+    description: "Meet the experienced team behind Curzon&apos;s property management success. Developers, estate agents, and property experts.",
 };
 
 export default function Team() {
@@ -14,10 +14,10 @@ export default function Team() {
       name: "David Curzon",
       position: "Founder & Managing Director",
       image: "/images/testimonial/johns.jpg",
-      bio: "With 20 years in Central London property development and estate agency, David founded Curzon London to bridge the gap between development expertise and property management.",
+      bio: "With 20 years in Central London property development and estate agency, David founded Curzon to bridge the gap between development expertise and property management.",
       specialties: ["Property Development", "Investment Strategy", "Market Analysis"],
       contact: {
-        email: "david@curzonlondon.com",
+        email: "david@curzon.com",
         phone: "+44 7877 227073"
       }
     },
@@ -28,7 +28,7 @@ export default function Team() {
       bio: "Sarah oversees all day-to-day property management operations, ensuring our high standards are maintained across every property in our portfolio.",
       specialties: ["BTL Management", "Tenant Relations", "Property Inspections"],
       contact: {
-        email: "sarah@curzonlondon.com",
+        email: "sarah@curzon.com",
         phone: "+44 7877 227074"
       }
     },
@@ -39,7 +39,7 @@ export default function Team() {
       bio: "Leading our in-house maintenance team, Michael ensures rapid response times and quality workmanship on all property maintenance and renovations.",
       specialties: ["Property Maintenance", "Renovation Projects", "Emergency Repairs"],
       contact: {
-        email: "michael@curzonlondon.com",
+        email: "michael@curzon.com",
         phone: "+44 7877 227075"
       }
     },
@@ -50,7 +50,7 @@ export default function Team() {
       bio: "Emma is the primary point of contact for our clients, ensuring clear communication and exceptional service throughout the property management process.",
       specialties: ["Client Communication", "Service Coordination", "Account Management"],
       contact: {
-        email: "emma@curzonlondon.com",
+        email: "emma@curzon.com",
         phone: "+44 7877 227076"
       }
     }

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import HeroSub from '@/components/shared/HeroSub';
 
 export const metadata: Metadata = {
-    title: "Our Services | Curzon London",
+    title: "Our Services | Curzon",
     description: "Comprehensive property management services in Central London. BTL management, vacant property care, maintenance, and managed sales.",
 };
 

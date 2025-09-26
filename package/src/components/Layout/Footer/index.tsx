@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-between md:flex-nowrap flex-wrap items-center py-6 gap-6">
           <p className="text-white/40 text-sm ">
-            ©2025 Curzon London. All rights reserved. Professional property management services in Central London.
+            ©2025 Curzon. All rights reserved. Professional property management services in Central London.
           </p>
           <div className="flex gap-8 items-center">
             <Link href="#" className="text-white/40 hover:text-primary text-sm">

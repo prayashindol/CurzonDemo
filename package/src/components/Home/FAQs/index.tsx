@@ -28,7 +28,7 @@ const FAQ: React.FC = () => {
                             FAQs
                         </p>
                         <h2 className='text-2xl sm:text-3xl md:text-40 lg:text-52 leading-tight font-medium text-dark dark:text-white mt-2 mb-3'>
-                            Curzon London Property Management
+                            Curzon Property Management
                         </h2>
                         <p className='text-dark/50 dark:text-white/50 text-sm sm:text-base lg:pr-8 xl:pr-20 mb-6 sm:mb-8'>
                             Get answers to the most common questions about our property management services in Central London

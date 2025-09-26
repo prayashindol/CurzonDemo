@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import HeroSub from '@/components/shared/HeroSub';
 
 export const metadata: Metadata = {
-    title: "About Us | Curzon London",
-    description: "Learn about Curzon London's 20 years of property management expertise. We're developers who understand property investment from the ground up.",
+    title: "About Us | Curzon",
+    description: "Learn about Curzon's 20 years of property management expertise. We're developers who understand property investment from the ground up.",
 };
 
 export default function AboutUs() {
@@ -54,7 +54,7 @@ export default function AboutUs() {
               </h2>
               <div className="space-y-4 text-dark/70 dark:text-white/70 leading-relaxed">
                 <p>
-                  Curzon London was founded with a simple principle: property management should be handled by people who truly understand property development. As active developers ourselves, we know exactly what makes a property profitable, maintainable, and attractive to tenants.
+                  Curzon was founded with a simple principle: property management should be handled by people who truly understand property development. As active developers ourselves, we know exactly what makes a property profitable, maintainable, and attractive to tenants.
                 </p>
                 <p>
                   Our 20 years in the Central London market have taught us that successful property investment requires more than just collecting rent. It demands strategic thinking, quality maintenance, and deep local knowledge – exactly what we provide.
@@ -67,7 +67,7 @@ export default function AboutUs() {
             <div className="relative">
               <Image
                 src="/images/faqs/faq-image.png"
-                alt="Curzon London team"
+                alt="Curzon team"
                 width={600}
                 height={400}
                 className="rounded-2xl shadow-lg"

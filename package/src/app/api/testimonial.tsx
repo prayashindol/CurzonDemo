@@ -4,13 +4,13 @@ export const testimonials: Testimonial[] = [
     {
         image: "/images/testimonial/smiths.jpg",
         name: "Victoria Harrison", 
-        review: "Curzon London transformed our BTL portfolio completely. Their developer expertise helped us identify opportunities we never considered. Our rental yield increased by 40% within 8 months.",
+        review: "Curzon transformed our BTL portfolio completely. Their developer expertise helped us identify opportunities we never considered. Our rental yield increased by 40% within 8 months.",
         position: "BTL Investor, Mayfair"
     },
     {
         image: "/images/testimonial/johns.jpg",
         name: "Alexander Thompson",
-        review: "After struggling with previous property managers, Curzon London was a revelation. Their 20 years of experience shows in every interaction. Their maintenance team saved us thousands.",
+        review: "After struggling with previous property managers, Curzon was a revelation. Their 20 years of experience shows in every interaction. Their maintenance team saved us thousands.",
         position: "Property Investor, Knightsbridge"
     },
     {
@@ -22,7 +22,7 @@ export const testimonials: Testimonial[] = [
     {
         image: "/images/testimonial/couple2.jpg",
         name: "Michael & Rebecca Wellington",
-        review: "Curzon London handled our vacant property sale brilliantly. They negotiated with multiple agents and achieved 15% above asking price. True property investment specialists.",
+        review: "Curzon handled our vacant property sale brilliantly. They negotiated with multiple agents and achieved 15% above asking price. True property investment specialists.",
         position: "Property Investors, Belgravia"
     },
     {

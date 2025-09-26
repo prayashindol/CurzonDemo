@@ -43,9 +43,15 @@ const Header: React.FC = () => {
       <nav className={`container mx-auto max-w-8xl flex items-center justify-between py-3 sm:py-4 duration-300 ${sticky ? "shadow-lg bg-white dark:bg-dark rounded-full top-5 px-3 sm:px-4 " : "shadow-none top-0"}`}>
         <div className='flex justify-between items-center gap-2 w-full'>
           <div>
-            <Link href='/'>
+            <Link href='/' className="flex items-center gap-2">
+              <Icon
+                icon="solar:buildings-2-bold"
+                width={28}
+                height={28}
+                className={`${isHomepage ? sticky ? "text-primary" : "text-white" : "text-primary"}`}
+              />
               <span className={`text-lg sm:text-xl md:text-2xl font-bold ${isHomepage ? sticky ? "text-dark dark:text-white" : "text-white" : "text-dark dark:text-white"}`}>
-                Curzon London
+                Curzon
               </span>
             </Link>
           </div>
@@ -159,8 +165,8 @@ const Header: React.FC = () => {
             <p className='text-sm sm:text-base font-normal text-white/40'>
               Contact
             </p>
-            <Link href="mailto:hello@curzonlondon.com" className='text-sm sm:text-base font-medium text-inherit hover:text-primary transition-colors break-all'>
-              hello@curzonlondon.com
+            <Link href="mailto:hello@curzon.com" className='text-sm sm:text-base font-medium text-inherit hover:text-primary transition-colors break-all'>
+              hello@curzon.com
             </Link>
             <Link href="tel:+447877227073" className='text-sm sm:text-base font-medium text-inherit hover:text-primary transition-colors'>
               +44 7877 227073

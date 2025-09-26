@@ -10,7 +10,7 @@ import SessionProviderComp from '@/components/nextauth/SessionProvider'
 const font = Bricolage_Grotesque({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Curzon London - Property Management by Developers, for Investors',
+  title: 'Curzon - Property Management by Developers, for Investors',
   description: 'Professional property management services in Central London. BTL management, owner occupier services, vacant property management, and managed sales by experienced developers.',
 }
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   session: any
 }>) {
   return (
-    <html lang='en'>
+    <html lang='en' suppressHydrationWarning>
       <body className={`${font.className} bg-white dark:bg-black antialiased`}>
         <NextTopLoader color="#07be8a" />
         <SessionProviderComp session={session}>

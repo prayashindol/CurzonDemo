@@ -52,7 +52,7 @@ const WhyChooseCurzon: React.FC = () => {
             </p>
           </div>
           <h2 className='text-2xl sm:text-3xl md:text-40 lg:text-52 font-medium text-black dark:text-white text-center tracking-tight leading-tight mb-2'>
-            The Curzon London Advantage
+            The Curzon Advantage
           </h2>
           <p className='text-base sm:text-xm font-normal text-black/50 dark:text-white/50 text-center max-w-2xl mx-auto'>
             Combining development expertise with property management excellence to deliver superior investor returns.
