@@ -122,7 +122,7 @@ const CurrentProject: React.FC = () => {
                 <h4 className="text-3xl text-dark dark:text-white font-medium">
                   £2.8M
                 </h4>
-                <p className="text-base text-dark/50">
+                <p className="text-base text-dark/70 dark:text-white/80">
                   Investment Value
                 </p>
               </div>
