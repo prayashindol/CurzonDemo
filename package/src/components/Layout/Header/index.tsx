@@ -44,10 +44,10 @@ const Header: React.FC = () => {
           <div>
             <Link href='/' className="flex items-center gap-2">
               <Icon
-                icon="solar:buildings-2-bold"
+                icon="solar:city-bold"
                 width={28}
                 height={28}
-                className={`${isHomepage ? sticky ? "text-primary" : "text-white" : "text-primary"}`}
+                className={`${isHomepage ? sticky ? "text-dark dark:text-white" : "text-white" : "text-dark dark:text-white"}`}
               />
               <span className={`text-lg sm:text-xl md:text-2xl font-bold ${isHomepage ? sticky ? "text-dark dark:text-white" : "text-white" : "text-dark dark:text-white"}`}>
                 Curzon
